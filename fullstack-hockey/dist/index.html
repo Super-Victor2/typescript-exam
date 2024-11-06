@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Team Build</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="stats-header">
+        <img src="./assests/nba-logo_2x.png" alt="" class="nba-stats-logo">
+        <ul class="stats-list nav-list">
+            <li class="player-stats nav-item" data-id="home">Home</li>
+            <li class="player-stats nav-item" data-id="player">Players</li>
+            <li class="standings-stats nav-item" data-id="favorites">Favorites</li>
+        </ul>
+    </header>
+
+    <section id="team-build" class="team-build-section">
+        <section class="team-build-section-wrapper">
+            <h1 class="team-build-title">Bygg ditt lag!</h1>
+            <ul class="team-build-info-list">
+                <li class="team-build-info-list-text">Max 5 players!</li>
+                <li class="team-build-info-list-text">One of each position!</li>
+                <li class="team-build-info-list-text">One of each player!</li>
+            </ul>
+            <input id="search" type="search" placeholder="Sök efter spelare" class="player-search">
+            <aside class="team-build-cards">
+
+            </aside>
+        </section>
+    </section>
+
+    <section id="player-section" class="player-stats-cards-section section">
+        <h1 class="player-stats-cards-section-title">Players</h1>
+        <p class="player-stats-cards-section-text">Press to favorite!</p>
+        <section class="player-section-wrapper">
+            
+        </section>
+    </section>
+
+    <section id="favorites-section" class="favorites-section section">
+        <h1 class="favorites-section-title">Favorites</h1>
+        <section class="favorites-section-wrapper">
+            
+        </section>
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+</html>

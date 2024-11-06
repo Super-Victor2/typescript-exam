@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-image: url('./assests/aesthetic-nba-ba4w0pe75y02ux5q.jpg');
+    background-position: center 70px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+}
+
+/* Display none */
+
+.d-none {
+    display: none;
+}
+
+/* Header */
+
+.stats-header {
+    width: 100%;
+    background-color: black;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+}
+
+.stats-list {
+    display: flex;
+    gap: 30%;
+    width: 30%;
+}
+
+.player-stats, .standings-stats {
+    list-style-type: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+.player-stats:hover, .standings-stats:hover {
+    opacity: 90%;
+    transform: scale(0.98);
+}
+
+.nba-stats-logo {
+    height: 80px;
+    width: 10%;
+}
+
+/* Stats Cards */
+
+.player-section-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.player-stats-cards-section-title {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 3px 3px black;
+    font-size: 30px;
+}
+
+.player-stats-cards-section-text {
+    text-align: center;
+    color: gold;
+    text-shadow: 2px 3px 3px black;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.player-stats-card {
+    width: 250px;
+    height: 320px;
+    box-shadow: 4px 6px 4px 2px #001129;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+    background-image: url('./assests/ip_page_nba_icon_ba80c0027c.jpg');
+    background-position: bottom right;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-color: rgba(0,57,138,255);
+}
+
+.player-stats-card:hover {
+    transform: scale(1.05);
+}
+
+.stats-title {
+    margin-left: 5px;
+    text-align: center;
+    font-size: 19px;
+    color: white;
+    text-shadow: 2px 3px 3px black;
+}
+
+.stats-text {
+    margin-left: 10px;
+    color: white;
+    text-shadow: 2px 3px 3px black;
+}
+
+/* Favorites Section */
+
+.favorites-section-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.favorites-section-title {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 3px 3px black;
+    font-size: 30px;
+}
+
+/* Team Build */
+
+.team-build-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.team-build-title {
+    color: white;
+    filter: drop-shadow(4px 4px 4px black);
+    font-size: 46px;
+    letter-spacing: 2px;
+    margin: 5px;
+}
+
+.team-build-info-list-text {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font: bolder;
+    text-decoration: underline;
+    filter: drop-shadow(2px 2px 4px rgb(0, 0, 0));
+    text-shadow: 3px 2px 3px black;
+    padding: 5px;
+}
+
+.player-search {
+    padding: 10px 60px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    outline: black;
+}
+
+.player-search:hover {
+    transform: scale(1.05);
+    outline: black;
+}
+
+.player-search:focus {
+    transform: scale(1.05);
+    outline: black;
+}
+
+.team-build-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+}
